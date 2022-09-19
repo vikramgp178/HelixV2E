@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Data Driven Test]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="extentlisteners.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" name="Car Price Test(failed)">
+    <classes>
+      <class name="testcases.CarPriceTest">
+        <methods>
+          <include name="carPriceTest" invocation-numbers="0 1 3"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.CarPriceTest -->
+    </classes>
+  </test> <!-- Car Price Test(failed) -->
+</suite> <!-- Failed suite [Data Driven Test] -->
