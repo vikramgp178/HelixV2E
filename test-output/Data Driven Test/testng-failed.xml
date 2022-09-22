@@ -4,15 +4,22 @@
   <listeners>
     <listener class-name="org.uncommons.reportng.HTMLReporter"/>
     <listener class-name="extentlisteners.ExtentListeners"/>
+    <listener class-name="extentlisteners.CustomListeners"/>
   </listeners>
-  <test thread-count="5" name="Car Price Test(failed)">
+  <test thread-count="5" name="Sanity Test(failed)">
     <classes>
-      <class name="testcases.CarPriceTest">
+      <class name="testcases.SanityTest">
         <methods>
-          <include name="carPriceTest" invocation-numbers="0 1 3"/>
+          <include name="sanityTest" invocation-numbers="1 2 3 4 5 6"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- testcases.CarPriceTest -->
+      </class> <!-- testcases.SanityTest -->
+      <class name="testcases.V2E_Tests">
+        <methods>
+          <include name="sampleTest" invocation-numbers="0 1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.V2E_Tests -->
     </classes>
-  </test> <!-- Car Price Test(failed) -->
+  </test> <!-- Sanity Test(failed) -->
 </suite> <!-- Failed suite [Data Driven Test] -->

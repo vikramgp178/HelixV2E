@@ -41,7 +41,7 @@ public class ExtentListeners implements ITestListener {
 	 */
 
 	static Date d = new Date();
-	static String fileName = "Extent_" + d.toString().replace(":", "_").replace(" ", "_") + ".html";
+	static String fileName = "V2E_Test_Report_" + d.toString().replace(":", "_").replace(" ", "_") + ".html";
 
 	private static ExtentReports extent = ExtentManager
 			.createInstance(System.getProperty("user.dir") + "\\target\\reports\\" + fileName);
@@ -49,10 +49,10 @@ public class ExtentListeners implements ITestListener {
 	public static ExtentTest test;
 
 	public void onTestStart(ITestResult result) {
+		System.out.println("extent "+result);
 
 		String param = (String) result.getParameters()[0];
-		test = extent.createTest(result.getTestClass().getName() + "     @TestCase : "
-				+ result.getMethod().getMethodName() + " -- " + param);
+		test = extent.createTest("V2E Application : "+result.getTestClass().getName() + " For Site: "+ " - " + param);
 
 	}
 	
@@ -61,7 +61,7 @@ public class ExtentListeners implements ITestListener {
 	public void onTestSuccess(ITestResult result) {
 
 		String methodName = result.getMethod().getMethodName();
-		String logText = "<b>" + "TEST CASE:- " + methodName.toUpperCase() + " PASSED" + "</b>";
+		String logText = "<b>" + "TestCase :- " + methodName.toUpperCase() + " Passed" + "</b>";
 		Markup m = MarkupHelper.createLabel(logText, ExtentColor.GREEN);
 		test.pass(m);
 
@@ -85,7 +85,7 @@ public class ExtentListeners implements ITestListener {
 		test.fail(excepionMessage);
 
 		String methodName = result.getMethod().getMethodName();
-		String logText = "<b>" + "TEST CASE:- " + methodName.toUpperCase() + " FAILED" + "</b>";
+		String logText = "<b>" + "TestCase :- " + methodName.toUpperCase() + " Failed" + "</b>";
 
 		try {
 
@@ -103,7 +103,7 @@ public class ExtentListeners implements ITestListener {
 
 	public void onTestSkipped(ITestResult result) {
 		String methodName = result.getMethod().getMethodName();
-		String logText = "<b>" + "Test Case:- " + methodName + " Skipped" + "</b>";
+		String logText = "<b>" + "TestCase:- " + methodName + " Skipped" + "</b>";
 		Markup m = MarkupHelper.createLabel(logText, ExtentColor.YELLOW);
 		test.skip(m);
 

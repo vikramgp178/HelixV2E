@@ -1,5 +1,5 @@
-INFO    2022-09-19 20:15:54,280 [main] base.BaseTest  - Config Properties loaded !!!
-INFO    2022-09-19 20:15:55,456 [main] base.BaseTest  - Chrome Browser Launched !!!
-INFO    2022-09-19 20:15:56,434 [main] base.BaseTest  - Navigating to the URL : https://www.carwale.com/
-INFO    2022-09-19 20:16:00,519 [main] base.BaseTest  - Database connection established
-INFO    2022-09-19 20:16:06,268 [main] base.BaseTest  - Test Execution completed !!!
+INFO    2022-09-22 20:35:22,565 [main] base.BaseTest  - Config Properties loaded !!!
+INFO    2022-09-22 20:35:23,769 [main] base.BaseTest  - Chrome Browser Launched !!!
+INFO    2022-09-22 20:35:40,271 [main] base.BaseTest  - Navigating to the URL : https://www.gmail.com
+INFO    2022-09-22 20:35:44,329 [main] base.BaseTest  - Database connection established
+INFO    2022-09-22 20:35:55,377 [main] base.BaseTest  - Test Execution completed !!!

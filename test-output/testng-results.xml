@@ -1,44 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" ignored="0" total="8" passed="5">
+<testng-results skipped="6" failed="2" ignored="0" total="9" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[<a href=Mon_Sep_19_20_15_31_IST_2022.jpg target="_blank">Screenshot link</a>]]>
+      <![CDATA[<a href=Thu_Sep_22_20_35_21_IST_2022.jpg target="_blank">Screenshot link</a>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[<a href=Mon_Sep_19_20_15_31_IST_2022.jpg target="_blank"><img src=Mon_Sep_19_20_15_31_IST_2022.jpg height=200 width=200></a>]]>
+      <![CDATA[<a href=Thu_Sep_22_20_35_21_IST_2022.jpg target="_blank"><img src=Thu_Sep_22_20_35_21_IST_2022.jpg height=200 width=200></a>]]>
     </line>
     <line>
-      <![CDATA[<a href=Mon_Sep_19_20_15_43_IST_2022.jpg target="_blank">Screenshot link</a>]]>
-    </line>
-    <line>
-      <![CDATA[<br>]]>
-    </line>
-    <line>
-      <![CDATA[<a href=Mon_Sep_19_20_15_43_IST_2022.jpg target="_blank"><img src=Mon_Sep_19_20_15_43_IST_2022.jpg height=200 width=200></a>]]>
-    </line>
-    <line>
-      <![CDATA[<a href=Mon_Sep_19_20_16_05_IST_2022.jpg target="_blank">Screenshot link</a>]]>
+      <![CDATA[<a href=Thu_Sep_22_20_35_54_IST_2022.jpg target="_blank">Screenshot link</a>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[<a href=Mon_Sep_19_20_16_05_IST_2022.jpg target="_blank"><img src=Mon_Sep_19_20_16_05_IST_2022.jpg height=200 width=200></a>]]>
+      <![CDATA[<a href=Thu_Sep_22_20_35_54_IST_2022.jpg target="_blank"><img src=Thu_Sep_22_20_35_54_IST_2022.jpg height=200 width=200></a>]]>
     </line>
   </reporter-output>
-  <suite name="Data Driven Test" duration-ms="92360" started-at="2022-09-19T14:44:33Z" finished-at="2022-09-19T14:46:06Z">
+  <suite name="Data Driven Test" duration-ms="100847" started-at="2022-09-22T15:04:14Z" finished-at="2022-09-22T15:05:55Z">
     <groups>
     </groups>
-    <test name="Find Car Test" duration-ms="46384" started-at="2022-09-19T14:44:33Z" finished-at="2022-09-19T14:45:20Z">
-      <class name="testcases.FindCarTest">
-        <test-method status="PASS" signature="findCarTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.FindCarTest@2a265ea9]" name="findCarTest" duration-ms="11894" started-at="2022-09-19T14:44:33Z" data-provider="dp" finished-at="2022-09-19T14:44:45Z">
+    <test name="Sanity Test" duration-ms="100847" started-at="2022-09-22T15:04:14Z" finished-at="2022-09-22T15:05:55Z">
+      <class name="testcases.V2E_Tests">
+        <test-method status="FAIL" signature="sampleTest(java.lang.String, java.lang.String)[pri:0, instance:testcases.V2E_Tests@176b75f7]" name="sampleTest" duration-ms="16455" started-at="2022-09-22T15:05:05Z" data-provider="dp" finished-at="2022-09-22T15:05:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Maruti]]>
+                <![CDATA[https://www.google.com]]>
               </value>
             </param>
             <param index="1">
@@ -46,131 +37,20 @@
                 <![CDATA[chrome]]>
               </value>
             </param>
-            <param index="2">
-              <value>
-                <![CDATA[Y]]>
-              </value>
-            </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findCarTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.FindCarTest@2a265ea9]" name="tearDown" is-config="true" duration-ms="799" started-at="2022-09-19T14:44:45Z" finished-at="2022-09-19T14:44:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="findCarTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.FindCarTest@2a265ea9]" name="findCarTest" duration-ms="10362" started-at="2022-09-19T14:44:46Z" data-provider="dp" finished-at="2022-09-19T14:44:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Toyota]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Y]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findCarTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.FindCarTest@2a265ea9]" name="tearDown" is-config="true" duration-ms="700" started-at="2022-09-19T14:44:57Z" finished-at="2022-09-19T14:44:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="findCarTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.FindCarTest@2a265ea9]" name="findCarTest" duration-ms="10411" started-at="2022-09-19T14:44:57Z" data-provider="dp" finished-at="2022-09-19T14:45:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Kia]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Y]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findCarTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.FindCarTest@2a265ea9]" name="tearDown" is-config="true" duration-ms="737" started-at="2022-09-19T14:45:08Z" finished-at="2022-09-19T14:45:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="findCarTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.FindCarTest@2a265ea9]" name="findCarTest" duration-ms="10680" started-at="2022-09-19T14:45:08Z" data-provider="dp" finished-at="2022-09-19T14:45:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Hyundai]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Y]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findCarTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.FindCarTest@2a265ea9]" name="tearDown" is-config="true" duration-ms="735" started-at="2022-09-19T14:45:19Z" finished-at="2022-09-19T14:45:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testcases.FindCarTest -->
-    </test> <!-- Find Car Test -->
-    <test name="Car Price Test" duration-ms="45700" started-at="2022-09-19T14:45:20Z" finished-at="2022-09-19T14:46:06Z">
-      <class name="testcases.CarPriceTest">
-        <test-method status="FAIL" signature="carPriceTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.CarPriceTest@6bbe85a8]" name="carPriceTest" duration-ms="11106" started-at="2022-09-19T14:45:20Z" data-provider="dp" finished-at="2022-09-19T14:45:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Maruti]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Y]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.IndexOutOfBoundsException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Index: 15, Size: 15]]>
+              <![CDATA[expected [0] but found [1]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IndexOutOfBoundsException: Index: 15, Size: 15
-at java.util.ArrayList.rangeCheck(ArrayList.java:657)
-at java.util.ArrayList.get(ArrayList.java:433)
-at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
-at com.sun.proxy.$Proxy10.get(Unknown Source)
-at base.CarBase.getCarNameAndPrice(CarBase.java:49)
-at testcases.CarPriceTest.carPriceTest(CarPriceTest.java:55)
+              <![CDATA[java.lang.AssertionError: expected [0] but found [1]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at org.testng.Assert.assertEquals(Assert.java:662)
+at testcases.V2E_Tests.sampleTest(V2E_Tests.java:20)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -198,28 +78,28 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[<a href=Mon_Sep_19_20_15_31_IST_2022.jpg target="_blank">Screenshot link</a>]]>
+              <![CDATA[<a href=Thu_Sep_22_20_35_21_IST_2022.jpg target="_blank">Screenshot link</a>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[<a href=Mon_Sep_19_20_15_31_IST_2022.jpg target="_blank"><img src=Mon_Sep_19_20_15_31_IST_2022.jpg height=200 width=200></a>]]>
+              <![CDATA[<a href=Thu_Sep_22_20_35_21_IST_2022.jpg target="_blank"><img src=Thu_Sep_22_20_35_21_IST_2022.jpg height=200 width=200></a>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- carPriceTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.CarPriceTest@6bbe85a8]" name="tearDown" is-config="true" duration-ms="748" started-at="2022-09-19T14:45:32Z" finished-at="2022-09-19T14:45:32Z">
+        </test-method> <!-- sampleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.V2E_Tests@176b75f7]" name="tearDown" is-config="true" duration-ms="681" started-at="2022-09-22T15:05:21Z" finished-at="2022-09-22T15:05:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="FAIL" signature="carPriceTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.CarPriceTest@6bbe85a8]" name="carPriceTest" duration-ms="10427" started-at="2022-09-19T14:45:32Z" data-provider="dp" finished-at="2022-09-19T14:45:43Z">
+        <test-method status="FAIL" signature="sampleTest(java.lang.String, java.lang.String)[pri:0, instance:testcases.V2E_Tests@176b75f7]" name="sampleTest" duration-ms="32000" started-at="2022-09-22T15:05:22Z" data-provider="dp" finished-at="2022-09-22T15:05:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Toyota]]>
+                <![CDATA[https://www.gmail.com]]>
               </value>
             </param>
             <param index="1">
@@ -227,27 +107,48 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
                 <![CDATA[chrome]]>
               </value>
             </param>
-            <param index="2">
-              <value>
-                <![CDATA[Y]]>
-              </value>
-            </param>
           </params>
-          <exception class="java.lang.IndexOutOfBoundsException">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Index: 8, Size: 8]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div[3]/form/div[1]/div[1]/div[3]/center/input[1]"}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ISIPL-PUNV-L384', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56051}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f7d0a8430220a73f64bb28a650a9beaa
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[3]/form/div[1]/div[1]/div[3]/center/input[1]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IndexOutOfBoundsException: Index: 8, Size: 8
-at java.util.ArrayList.rangeCheck(ArrayList.java:657)
-at java.util.ArrayList.get(ArrayList.java:433)
-at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
-at com.sun.proxy.$Proxy10.get(Unknown Source)
-at base.CarBase.getCarNameAndPrice(CarBase.java:49)
-at testcases.CarPriceTest.carPriceTest(CarPriceTest.java:47)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div[3]/form/div[1]/div[1]/div[3]/center/input[1]"}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ISIPL-PUNV-L384', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56051}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f7d0a8430220a73f64bb28a650a9beaa
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[3]/form/div[1]/div[1]/div[3]/center/input[1]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy15.click(Unknown Source)
+at pages.UK.UK_PrivacyGuard.ClickGooglebtn(UK_PrivacyGuard.java:54)
+at testcases.V2E_Tests.sampleTest(V2E_Tests.java:19)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -275,81 +176,106 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
             <line>
-              <![CDATA[<a href=Mon_Sep_19_20_15_43_IST_2022.jpg target="_blank">Screenshot link</a>]]>
+              <![CDATA[<a href=Thu_Sep_22_20_35_54_IST_2022.jpg target="_blank">Screenshot link</a>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[<a href=Mon_Sep_19_20_15_43_IST_2022.jpg target="_blank"><img src=Mon_Sep_19_20_15_43_IST_2022.jpg height=200 width=200></a>]]>
+              <![CDATA[<a href=Thu_Sep_22_20_35_54_IST_2022.jpg target="_blank"><img src=Thu_Sep_22_20_35_54_IST_2022.jpg height=200 width=200></a>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- carPriceTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.CarPriceTest@6bbe85a8]" name="tearDown" is-config="true" duration-ms="770" started-at="2022-09-19T14:45:43Z" finished-at="2022-09-19T14:45:44Z">
+        </test-method> <!-- sampleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.V2E_Tests@176b75f7]" name="tearDown" is-config="true" duration-ms="685" started-at="2022-09-22T15:05:54Z" finished-at="2022-09-22T15:05:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="carPriceTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.CarPriceTest@6bbe85a8]" name="carPriceTest" duration-ms="9331" started-at="2022-09-19T14:45:44Z" data-provider="dp" finished-at="2022-09-19T14:45:53Z">
+      </class> <!-- testcases.V2E_Tests -->
+      <class name="testcases.SanityTest">
+        <test-method status="PASS" signature="sanityTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.SanityTest@6c0d7c83]" name="sanityTest" duration-ms="37730" started-at="2022-09-22T15:04:14Z" data-provider="dp" finished-at="2022-09-22T15:04:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Kia]]>
+                <![CDATA[My Credit Monitor]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[https://pguk-hx.ie1.qa2b.affiniongroup.com/?source=rqkQ2GTcaKt64j+2BMdssg]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Y]]>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[dpatel@tavisca.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[y]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- carPriceTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.CarPriceTest@6bbe85a8]" name="tearDown" is-config="true" duration-ms="733" started-at="2022-09-19T14:45:53Z" finished-at="2022-09-19T14:45:54Z">
+        </test-method> <!-- sanityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.SanityTest@6c0d7c83]" name="tearDown" is-config="true" duration-ms="677" started-at="2022-09-22T15:04:52Z" finished-at="2022-09-22T15:04:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="FAIL" signature="carPriceTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.CarPriceTest@6bbe85a8]" name="carPriceTest" duration-ms="10835" started-at="2022-09-19T14:45:54Z" data-provider="dp" finished-at="2022-09-19T14:46:05Z">
+        <test-method status="SKIP" signature="sanityTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.SanityTest@6c0d7c83]" name="sanityTest" duration-ms="2011" started-at="2022-09-22T15:04:53Z" data-provider="dp" finished-at="2022-09-22T15:04:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Hyundai]]>
+                <![CDATA[Privacy Guard UK]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[https://pguk-hx.ie1.qa2b.affiniongroup.com/?source=jC7IAYwrzsRyfyw34Q8u6w==]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Y]]>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[dipti100]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[N]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.IndexOutOfBoundsException">
+          <exception class="org.testng.SkipException">
             <message>
-              <![CDATA[Index: 11, Size: 11]]>
+              <![CDATA[Skipping the test as the run mode is NO]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IndexOutOfBoundsException: Index: 11, Size: 11
-at java.util.ArrayList.rangeCheck(ArrayList.java:657)
-at java.util.ArrayList.get(ArrayList.java:433)
-at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
-at com.sun.proxy.$Proxy10.get(Unknown Source)
-at base.CarBase.getCarNameAndPrice(CarBase.java:49)
-at testcases.CarPriceTest.carPriceTest(CarPriceTest.java:30)
+              <![CDATA[org.testng.SkipException: Skipping the test as the run mode is NO
+at base.BaseTest.checkRunmode(BaseTest.java:105)
+at testcases.SanityTest.sanityTest(SanityTest.java:63)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -377,24 +303,395 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
-            <line>
-              <![CDATA[<a href=Mon_Sep_19_20_16_05_IST_2022.jpg target="_blank">Screenshot link</a>]]>
-            </line>
-            <line>
-              <![CDATA[<br>]]>
-            </line>
-            <line>
-              <![CDATA[<a href=Mon_Sep_19_20_16_05_IST_2022.jpg target="_blank"><img src=Mon_Sep_19_20_16_05_IST_2022.jpg height=200 width=200></a>]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- carPriceTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.CarPriceTest@6bbe85a8]" name="tearDown" is-config="true" duration-ms="796" started-at="2022-09-19T14:46:05Z" finished-at="2022-09-19T14:46:06Z">
+        </test-method> <!-- sanityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.SanityTest@6c0d7c83]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-09-22T15:04:55Z" finished-at="2022-09-22T15:04:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.CarPriceTest -->
-    </test> <!-- Car Price Test -->
+        <test-method status="SKIP" signature="sanityTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.SanityTest@6c0d7c83]" name="sanityTest" duration-ms="2006" started-at="2022-09-22T15:04:55Z" data-provider="dp" finished-at="2022-09-22T15:04:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manage my credit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://pguk-hx.ie1.qa2b.affiniongroup.com/?ref=UKAIHOMEPG0026]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testdata@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as the run mode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as the run mode is NO
+at base.BaseTest.checkRunmode(BaseTest.java:105)
+at testcases.SanityTest.sanityTest(SanityTest.java:76)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sanityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.SanityTest@6c0d7c83]" name="tearDown" is-config="true" duration-ms="2" started-at="2022-09-22T15:04:57Z" finished-at="2022-09-22T15:04:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="sanityTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.SanityTest@6c0d7c83]" name="sanityTest" duration-ms="2008" started-at="2022-09-22T15:04:57Z" data-provider="dp" finished-at="2022-09-22T15:04:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Identity Secure]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https:///pguk-hx.ie1.qa2b.affiniongroup.com/?ref=UKLZ1STDFLT0002]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[diptipatel1608@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as the run mode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as the run mode is NO
+at base.BaseTest.checkRunmode(BaseTest.java:105)
+at testcases.SanityTest.sanityTest(SanityTest.java:89)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sanityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.SanityTest@6c0d7c83]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-09-22T15:04:59Z" finished-at="2022-09-22T15:04:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="sanityTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.SanityTest@6c0d7c83]" name="sanityTest" duration-ms="2015" started-at="2022-09-22T15:04:59Z" data-provider="dp" finished-at="2022-09-22T15:05:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[(Vanquis) Credit Tracker Identiy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://pguk-hx.ie1.qa2b.affiniongroup.com/?source=OnSaHXM7BvXQ6mD37Zu3yQ==]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ssltest@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as the run mode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as the run mode is NO
+at base.BaseTest.checkRunmode(BaseTest.java:105)
+at testcases.SanityTest.sanityTest(SanityTest.java:102)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sanityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.SanityTest@6c0d7c83]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-09-22T15:05:01Z" finished-at="2022-09-22T15:05:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="sanityTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.SanityTest@6c0d7c83]" name="sanityTest" duration-ms="2010" started-at="2022-09-22T15:05:01Z" data-provider="dp" finished-at="2022-09-22T15:05:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[My Credit Tracker]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://pguk-hx.ie1.qa2b.affiniongroup.com/?ref=UKGENSTDFLT0002]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jennystork@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as the run mode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as the run mode is NO
+at base.BaseTest.checkRunmode(BaseTest.java:105)
+at testcases.SanityTest.sanityTest(SanityTest.java:115)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sanityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.SanityTest@6c0d7c83]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-09-22T15:05:03Z" finished-at="2022-09-22T15:05:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="sanityTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.SanityTest@6c0d7c83]" name="sanityTest" duration-ms="2015" started-at="2022-09-22T15:05:03Z" data-provider="dp" finished-at="2022-09-22T15:05:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[American Express Identity Defence]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://pguk-hx.ie1.qa2b.affiniongroup.com/?ref=UKAMXSTDFLT0001]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MRY@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as the run mode is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as the run mode is NO
+at base.BaseTest.checkRunmode(BaseTest.java:105)
+at testcases.SanityTest.sanityTest(SanityTest.java:128)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sanityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.SanityTest@6c0d7c83]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-09-22T15:05:05Z" finished-at="2022-09-22T15:05:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.SanityTest -->
+    </test> <!-- Sanity Test -->
   </suite> <!-- Data Driven Test -->
 </testng-results>

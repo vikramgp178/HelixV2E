@@ -3,38 +3,176 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
 <head>
-  <title>Test Results Report - Find Car Test</title>
+  <title>Test Results Report - Sanity Test</title>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   <meta name="description" content="TestNG unit test results." />
   <link href="reportng.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="reportng.js"></script>
 </head>
 <body>
-<h1>Find Car Test</h1>
+<h1>Sanity Test</h1>
 <p>
-  Test duration: 46.318s
+  Test duration: 100.297s
 </p>
 
 
 
-
-
   <table class="resultsTable">
-    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
           <tr>
-        <td colspan="3" class="group">testcases.FindCarTest</td>
+        <td colspan="3" class="group">testcases.V2E_Tests</td>
       </tr>
             
 <tr>
   <td class="method">
-                  findCarTest
+                  sampleTest
       </td>
   <td class="duration">
-    10.680s
+    16.455s
   </td>
   <td class="result">
         
-          <i>Method arguments: </i><span class="arguments">"Hyundai", "chrome", "Y"</span><br />
+          <i>Method arguments: </i><span class="arguments">"https://www.google.com", "chrome"</span><br />
+    
+            <div class="testOutput">
+                        <a href=Thu_Sep_22_20_35_21_IST_2022.jpg target="_blank">Screenshot link</a>
+                                <br>
+                                <a href=Thu_Sep_22_20_35_21_IST_2022.jpg target="_blank"><img src=Thu_Sep_22_20_35_21_IST_2022.jpg height=200 width=200></a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [0] but found [1]</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.testng.Assert.fail(Assert.java:96)<br />
+              org.testng.Assert.failNotEquals(Assert.java:776)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:137)<br />
+              org.testng.Assert.assertEquals(Assert.java:118)<br />
+              org.testng.Assert.assertEquals(Assert.java:652)<br />
+              org.testng.Assert.assertEquals(Assert.java:662)<br />
+              testcases.V2E_Tests.sampleTest(V2E_Tests.java:20)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  sampleTest
+      </td>
+  <td class="duration">
+    32.000s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"https://www.gmail.com", "chrome"</span><br />
+    
+            <div class="testOutput">
+                        <a href=Thu_Sep_22_20_35_54_IST_2022.jpg target="_blank">Screenshot link</a>
+                                <br>
+                                <a href=Thu_Sep_22_20_35_54_IST_2022.jpg target="_blank"><img src=Thu_Sep_22_20_35_54_IST_2022.jpg height=200 width=200></a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[3]/form/div[1]/div[1]/div[3]/center/input[1]&quot;}<br/>
+&nbsp; (Session info: chrome=104.0.5112.102)<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;ISIPL-PUNV-L384&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56051}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: f7d0a8430220a73f64bb28a650a9beaa<br/>
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[3]/form/div[1]/div[1]/div[3]/center/input[1]}</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)<br />
+              org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)<br />
+              com.sun.proxy.$Proxy15.click(Unknown Source)<br />
+              pages.UK.UK_PrivacyGuard.ClickGooglebtn(UK_PrivacyGuard.java:54)<br />
+              testcases.V2E_Tests.sampleTest(V2E_Tests.java:19)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+  <table class="resultsTable" width="100%">
+    <tr><th colspan="3" class="header skipped">Skipped Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">testcases.SanityTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  sanityTest
+      </td>
+  <td class="duration">
+    2.011s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping the test as the run mode is NO</span>
+          
+          <i>Method arguments: </i><span class="arguments">"Privacy Guard UK", "https://pguk-hx.ie1.qa2b.affiniongroup.com/?source=jC7IAYwrzsRyfyw34Q8u6w==", "chrome", "dipti100", "Password1", "N"</span><br />
     
         
 
@@ -42,14 +180,16 @@
 </tr>
 <tr>
   <td class="method">
-                  findCarTest
+                  sanityTest
       </td>
   <td class="duration">
-    10.362s
+    2.015s
   </td>
   <td class="result">
-        
-          <i>Method arguments: </i><span class="arguments">"Toyota", "chrome", "Y"</span><br />
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping the test as the run mode is NO</span>
+          
+          <i>Method arguments: </i><span class="arguments">"(Vanquis) Credit Tracker Identiy", "https://pguk-hx.ie1.qa2b.affiniongroup.com/?source=OnSaHXM7BvXQ6mD37Zu3yQ==", "chrome", "ssltest@gmail.com", "Password1", "N"</span><br />
     
         
 
@@ -57,14 +197,16 @@
 </tr>
 <tr>
   <td class="method">
-                  findCarTest
+                  sanityTest
       </td>
   <td class="duration">
-    11.894s
+    2.010s
   </td>
   <td class="result">
-        
-          <i>Method arguments: </i><span class="arguments">"Maruti", "chrome", "Y"</span><br />
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping the test as the run mode is NO</span>
+          
+          <i>Method arguments: </i><span class="arguments">"My Credit Tracker", "https://pguk-hx.ie1.qa2b.affiniongroup.com/?ref=UKGENSTDFLT0002", "chrome", "jennystork@gmail.com", "Password1", "N"</span><br />
     
         
 
@@ -72,14 +214,73 @@
 </tr>
 <tr>
   <td class="method">
-                  findCarTest
+                  sanityTest
       </td>
   <td class="duration">
-    10.411s
+    2.015s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping the test as the run mode is NO</span>
+          
+          <i>Method arguments: </i><span class="arguments">"American Express Identity Defence", "https://pguk-hx.ie1.qa2b.affiniongroup.com/?ref=UKAMXSTDFLT0001", "chrome", "MRY@gmail.com", "Password1", "N"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  sanityTest
+      </td>
+  <td class="duration">
+    2.008s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping the test as the run mode is NO</span>
+          
+          <i>Method arguments: </i><span class="arguments">"Identity Secure", "https:///pguk-hx.ie1.qa2b.affiniongroup.com/?ref=UKLZ1STDFLT0002", "chrome", "diptipatel1608@gmail.com", "Password1", "N"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  sanityTest
+      </td>
+  <td class="duration">
+    2.006s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping the test as the run mode is NO</span>
+          
+          <i>Method arguments: </i><span class="arguments">"Manage my credit", "https://pguk-hx.ie1.qa2b.affiniongroup.com/?ref=UKAIHOMEPG0026", "chrome", "testdata@gmail.com", "Password1", "N"</span><br />
+    
+        
+
+      </td>
+</tr>
+      </table>
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">testcases.SanityTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  sanityTest
+      </td>
+  <td class="duration">
+    37.730s
   </td>
   <td class="result">
         
-          <i>Method arguments: </i><span class="arguments">"Kia", "chrome", "Y"</span><br />
+          <i>Method arguments: </i><span class="arguments">"My Credit Monitor", "https://pguk-hx.ie1.qa2b.affiniongroup.com/?source=rqkQ2GTcaKt64j+2BMdssg", "chrome", "dpatel@tavisca.com", "Password1", "y"</span><br />
     
         
 
