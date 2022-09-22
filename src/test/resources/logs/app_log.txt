@@ -1,5 +1,5 @@
-INFO    2022-09-22 20:35:22,565 [main] base.BaseTest  - Config Properties loaded !!!
-INFO    2022-09-22 20:35:23,769 [main] base.BaseTest  - Chrome Browser Launched !!!
-INFO    2022-09-22 20:35:40,271 [main] base.BaseTest  - Navigating to the URL : https://www.gmail.com
-INFO    2022-09-22 20:35:44,329 [main] base.BaseTest  - Database connection established
-INFO    2022-09-22 20:35:55,377 [main] base.BaseTest  - Test Execution completed !!!
+INFO    2022-09-22 20:54:20,942 [main] base.BaseTest  - Config Properties loaded !!!
+INFO    2022-09-22 20:54:22,190 [main] base.BaseTest  - Chrome Browser Launched !!!
+INFO    2022-09-22 20:54:34,918 [main] base.BaseTest  - Navigating to the URL : https://www.gmail.com
+INFO    2022-09-22 20:54:38,987 [main] base.BaseTest  - Database connection established
+INFO    2022-09-22 20:54:50,096 [main] base.BaseTest  - Test Execution completed !!!
